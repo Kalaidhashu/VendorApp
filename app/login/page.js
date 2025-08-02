@@ -11,7 +11,7 @@ export default function LoginPage() {
     const username = e.target.username.value;
     const password = e.target.password.value;
 
-    if (username === 'admin' && password === 'admin123') {
+    if (username === 'admin' && password === 'admin') {
       localStorage.setItem('isLoggedIn', 'true'); 
       router.push('/'); 
     } else {
