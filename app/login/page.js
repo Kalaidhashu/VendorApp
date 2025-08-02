@@ -15,7 +15,8 @@ export default function LoginPage() {
       localStorage.setItem('isLoggedIn', 'true'); 
       router.push('/'); 
     } else {
-      setError('Invalid username or password');
+      setError('username and password is admin');
+      
     }
   };
 
