@@ -1,0 +1,126 @@
+
+body {
+  font-family: sans-serif;
+  padding: 20px;
+  background: #f9f9f9;
+}
+h1, h2 {
+  color: #333;
+}
+input {
+  display: block;
+  margin-bottom: 10px;
+  padding: 8px;
+}
+button {
+  padding: 6px 12px;
+  background: #333;
+  color: white;
+  border: none;
+}
+a {
+  margin-left: 10px;
+  color: blue;
+}
+.vendor-table {
+  width: 100%;
+  border-collapse: collapse;
+  margin-top: 20px;
+  background: white;
+  box-shadow: 0px 2px 5px rgba(0,0,0,0.1);
+}
+
+.vendor-table th, .vendor-table td {
+  padding: 12px;
+  border: 1px solid #ddd;
+  text-align: left;
+}
+
+.vendor-table th {
+  background-color: #f4f4f4;
+  font-weight: bold;
+}
+
+.Edit {
+  background-color: #3e5f40;
+  color: white;
+  padding: 5px 10px;
+  margin-right: 5px;
+  border: none;
+  cursor: pointer;
+}
+
+.Delete {
+  background-color: #3d3c3c;
+  color: white;
+  padding: 5px 10px;
+  border: none;
+  cursor: pointer;
+}
+
+.AddBtn {
+  background-color: #3f4b54;
+  color: white;
+  padding: 8px 14px;
+  border: none;
+  cursor: pointer;
+  margin-bottom: 15px;
+}
+
+.pagination {
+  margin-top: 20px;
+  text-align: center;
+}
+
+.pagination button {
+  padding: 5px 10px;
+  margin: 0 5px;
+  border: none;
+  background-color: #333;
+  color: white;
+  cursor: pointer;
+}
+
+.pagination button:disabled {
+  background-color: #ccc;
+  cursor: not-allowed;
+}
+.login-container {
+  width: 300px;
+  margin: 100px auto;
+  padding: 20px;
+  background: white;
+  border-radius: 8px;
+  box-shadow: 0px 2px 8px rgba(0,0,0,0.1);
+  text-align: center;
+}
+
+.login-container input {
+  width: 90%;
+  padding: 8px;
+  margin: 10px 0;
+}
+
+.login-container button {
+  width: 100%;
+  padding: 8px;
+  background-color: #333;
+  color: white;
+  border: none;
+  cursor: pointer;
+}
+
+.error {
+  color: red;
+  margin-top: 10px;
+}
+
+.LogoutBtn {
+  background-color: #0c6b9b;
+  color: white;
+  padding: 6px 12px;
+  margin-bottom: 15px;
+  border: none;
+  cursor: pointer;
+}
+
